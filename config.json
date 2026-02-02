@@ -1,0 +1,13 @@
+{
+  "framework": "pytorch",
+  "task": "fetch_setup_table",
+  "observation_dim": 30,
+  "action_dim": 13,
+  "action_range": [-1.0, 1.0],
+  "model": {
+    "type": "mlp",
+    "hidden_sizes": [256, 256, 256],
+    "activation": "relu",
+    "output_activation": "tanh"
+  }
+}
