@@ -1,5 +1,5 @@
 {
-  "framework": "pytorch",
+  "framework": "onnx",
   "task": "fetch_setup_table",
   "observation_dim": 30,
   "action_dim": 13,
